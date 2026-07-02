@@ -32,7 +32,7 @@ test.describe('Login',()=>{
 
     test('unauthenticated direct navigation to inventory is rejected',async({page})=>{
         await page.goto('https://www.saucedemo.com/inventory.html');
-        await expect(page.locator('[data-test="error"]')).toContainText('you logged in');
+        await expect(page.locator('[data-test="error"]')).toContainText('You can only access');
     });
 
     test.fixme('forgot password flow resets credentials',async()=>{

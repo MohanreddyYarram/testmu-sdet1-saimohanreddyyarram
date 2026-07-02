@@ -2,18 +2,30 @@
   "name": "testmu-sdet1-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
   "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/MohanreddyYarram/testmu-sdet1-saimohanreddyyarram#readme",
+  "bugs": {
+    "url": "https://github.com/MohanreddyYarram/testmu-sdet1-saimohanreddyyarram/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohanreddyYarram/testmu-sdet1-saimohanreddyyarram.git"
+  },
   "license": "ISC",
+  "author": "",
   "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.109.1",
+    "dotenv": "^17.4.2",
+    "playwright": "^1.61.1"
+  },
   "devDependencies": {
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.0"
-  },
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.109.1",
-    "dotenv": "^17.4.2"
   }
 }
